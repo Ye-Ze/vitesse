@@ -12,3 +12,6 @@ intro:
   aka: 也叫
   whats-your-name: 輸入你的名字
 not-found: 未找到頁面
+navbar:
+  index: 首頁
+  skill: 技能
