@@ -3,11 +3,6 @@
 
 <template>
   <div>
-    技能
+    自我介紹
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

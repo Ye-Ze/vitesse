@@ -6,12 +6,14 @@ button:
   toggle_dark: 切換深色模式
   toggle_langs: 切換語言
 intro:
+  aka: 也叫
   desc: 固執己見的 Vite 項目模板
   dynamic-route: 動態路由示範
   hi: 你好，{name}
-  aka: 也叫
   whats-your-name: 輸入你的名字
-not-found: 未找到頁面
 navbar:
+  experience: 經歷
   index: 首頁
   skill: 技能
+  test: 測試
+not-found: 未找到頁面

@@ -4,7 +4,6 @@ import { useI18n } from 'vue-i18n'
 // import { useUserStore } from '~/stores/user'
 
 const { t } = useI18n()
-
 </script>
 
 <template>
@@ -17,29 +16,21 @@ const { t } = useI18n()
     dark:text="light-500"
     font="mono"
   >
-    <router-link
-      class="link-btn"
-      m="x-4"
-      to="/"
-    >
+    <router-link class="link-btn" m="x-4" to="/">
       <!-- icon usage: https://icones.netlify.app/ -->
       <carbon-campsite class="" />
     </router-link>
 
-    <router-link
-      class="link-btn"
-      m="x-4"
-      to="/home"
-    >
-      {{ t('navbar.index') }}
+    <router-link class="link-btn" m="x-4" to="/home">
+      {{ t("navbar.index") }}
     </router-link>
 
-    <router-link
-      class="link-btn"
-      m="x-4"
-      to="/skill"
-    >
-      {{ t('navbar.skill') }}
+    <router-link class="link-btn" m="x-4" to="/skill">
+      {{ t("navbar.skill") }}
+    </router-link>
+
+    <router-link class="link-btn" m="x-4" to="/experience">
+      {{ t("navbar.experience") }}
     </router-link>
   </nav>
 </template>
