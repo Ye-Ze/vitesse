@@ -16,12 +16,12 @@ const { t } = useI18n()
     dark:text="light-500"
     font="mono"
   >
-    <router-link class="link-btn" m="x-4" to="/">
+    <router-link class="link-btn" m="x-4" to="/hello">
       <!-- icon usage: https://icones.netlify.app/ -->
       <carbon-campsite class="" />
     </router-link>
 
-    <router-link class="link-btn" m="x-4" to="/home">
+    <router-link class="link-btn" m="x-4" to="/">
       {{ t("navbar.index") }}
     </router-link>
 
