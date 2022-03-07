@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import { isDark, toggleDark } from '~/logic'
 // import { useUserStore } from '~/stores/user'
 
 const { t } = useI18n()
@@ -14,7 +15,7 @@ const { t } = useI18n()
     bg="light-500"
     dark:bg="dark-200"
     dark:text="light-500"
-    font="mono"
+    font="sans"
   >
     <router-link class="link-btn" m="x-4" to="/hello">
       <!-- icon usage: https://icones.netlify.app/ -->
@@ -32,5 +33,9 @@ const { t } = useI18n()
     <router-link class="link-btn" m="x-4" to="/experience">
       {{ t("navbar.experience") }}
     </router-link>
+    <button class="link-btn !outline-none" :title="t('button.toggle_dark')" @click="toggleDark">
+      <carbon-moon v-if="isDark" />
+      <carbon-sun v-else />
+    </button>
   </nav>
 </template>

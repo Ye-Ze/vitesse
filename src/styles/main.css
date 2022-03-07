@@ -43,8 +43,8 @@ html.dark {
 }
 
 .link-btn {
-  @apply inline-block select-none opacity-90 
+  @apply inline-block select-none opacity-90
     transition duration-250 ease-in-out
-    font-400
-    hover:opacity-100 hover:text-teal-600 hover:font-600;
+    font-500
+    hover:opacity-100 hover:text-teal-600 hover:font-500;
 }
